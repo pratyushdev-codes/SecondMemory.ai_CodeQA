@@ -13,3 +13,4 @@ flask-cors
 uvicorn
 unstructured
 numpy>=1.26.0
+nltk
