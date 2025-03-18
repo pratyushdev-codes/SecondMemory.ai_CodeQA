@@ -8,9 +8,11 @@ httpx==0.27.0
 langchain 
 chromadb
 python-dotenv 
+python-dotenv
 langchain-google-genai
 flask-cors
 uvicorn
 unstructured
-numpy>=1.26.0
 nltk
+numpy>=1.26.0
+dotenv
