@@ -68,7 +68,7 @@ def convert_files_to_txt(src_dir: str, dst_dir: str) -> None:
     dst_path.mkdir(parents=True, exist_ok=True)
 
     excluded_extensions = {".jpg", ".png", ".pdf", ".zip", ".exe", ".bin"}
-    excluded_dirs = {".git", "node_modules", "__pycache__", "venv", ".venv"}
+    excluded_dirs = {".git", "node_modules", "__pycache__", "venv", ".venv", "public"}
     
     for file_path in src_path.rglob('*'):
         # Skip excluded directories
